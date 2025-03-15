@@ -402,15 +402,15 @@ void Render(double delta_time) {
 	draw_ticks();
 	glEnable(GL_CULL_FACE);
 	// glDepthFunc(GL_ALWAYS);
-	glPushMatrix();
-	glScaled(0.25, 0.25, 0.25);
-	glTranslated(-10., -10., 0.);
-	prism30();
-	glTranslated(0., 20., 0.);
-	prism40();
-	glTranslated(20., -20., 0.);
-	prism50();
-	glTranslated(0., 20., 0.);
+	// glPushMatrix();
+	// glScaled(0.25, 0.25, 0.25);
+	// glTranslated(-10., -10., 0.);
+	// prism30();
+	// glTranslated(0., 20., 0.);
+	// prism40();
+	// glTranslated(20., -20., 0.);
+	// prism50();
+	// glTranslated(0., 20., 0.);
 	prism60(6.0, 60.);
-	glPopMatrix();
+	// glPopMatrix();
 }
