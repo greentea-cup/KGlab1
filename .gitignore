@@ -1,3 +1,4 @@
 .vs
+.ccls-cache
 **/build
 **/temp
