@@ -1,4 +1,6 @@
 .vs
 .ccls-cache
+**/*.vcxproj.user
+**/*.vcxproj.filters
 **/build
 **/temp
